@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['h_rack', 'orange_strip', 'red_line', 'small_pallet', 'yellow_line']
+
+roboflow:
+  workspace: myws-agdtd
+  project: local_roots_images
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/myws-agdtd/local_roots_images/dataset/3
